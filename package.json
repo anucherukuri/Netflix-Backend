@@ -1,0 +1,33 @@
+{
+  "name": "netflix-backend",
+  "version": "1.0.0",
+  "description": "Module-5 Benchmark",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -e js ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anucherukuri/Netflix-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anucherukuri/Netflix-Backend/issues"
+  },
+  "homepage": "https://github.com/anucherukuri/Netflix-Backend#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-list-endpoints": "^6.0.0",
+    "fs-extra": "^10.0.1",
+    "node-modules": "^1.0.1",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
